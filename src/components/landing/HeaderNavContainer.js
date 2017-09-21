@@ -1,8 +1,7 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { connect } from 'react-redux';
 
-export const HeaderNavContainer = ({apiCallsInProgress}) => {
+export const HeaderNavContainer = () => {
     return (
         <nav className="navbar navbar-toggleable-sm bg-info navbar-inverse">
             <div className="container">
@@ -15,14 +14,6 @@ export const HeaderNavContainer = ({apiCallsInProgress}) => {
             </div>
         </nav>
     )
-}
-
-HeaderNavContainer.propTypes = {
-    apiCallsInProgress: PropTypes.number.isRequired
 };
 
-const mapStateToProps = state => ({
-    apiCallsInProgress: state.apiReducer.apiCallsInProgress
-});
-
-export default connect(mapStateToProps)(HeaderNavContainer);
+export default HeaderNavContainer;
