@@ -1,8 +1,8 @@
 import {combineReducers} from 'redux';
 import {reducer as formReducer} from 'redux-form';
-import apiReducer from './apiReducer';
+import coursesReducer from './coursesReducer';
 
 export default combineReducers({
-    apiReducer,
+    coursesReducer,
     form: formReducer
 });

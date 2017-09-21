@@ -1,17 +1,5 @@
 export default {
-    authorReducer: {
-        authors: []
-    },
-
-    courseReducer: {
+    coursesReducer: {
         courses: []
-    },
-
-    selectedCourseReducer: {
-        course: undefined
-    },
-
-    apiReducer: {
-        apiCallsInProgress: 0
     }
 }
