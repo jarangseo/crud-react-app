@@ -6,6 +6,7 @@
     "bootstrap": "^3.3.7",
     "jQuery": "^1.7.4",
     "lodash": "^4.17.4",
+    "prop-types": "^15.5.10",
     "react": "^15.6.1",
     "react-bootstrap-table": "^4.0.3",
     "react-dom": "^15.6.1",
