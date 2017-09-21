@@ -1,6 +1,5 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { connect } from 'react-redux';
 
 export const HeaderNavContainer = () => {
     return (
@@ -15,10 +14,6 @@ export const HeaderNavContainer = () => {
             </div>
         </nav>
     )
-};
-
-HeaderNavContainer.propTypes = {
-    apiCallsInProgress: PropTypes.number.isRequired
 };
 
 export default HeaderNavContainer;
